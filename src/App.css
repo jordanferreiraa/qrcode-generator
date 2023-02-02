@@ -1,0 +1,43 @@
+body {
+  background-color: #020e26;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.input {
+  height: 38px;
+  border-radius: 8px;
+  margin: 24px 0;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #b6b6b6;
+}
+
+div a {
+  cursor: pointer;
+  background-color: #020e26;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  transition: .3s;
+}
+
+div a:visited {
+  color: white;
+}
+
+div a:hover {
+  transform: scale(1.1);
+  color: white;
+}
